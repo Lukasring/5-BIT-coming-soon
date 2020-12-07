@@ -3,8 +3,8 @@
 Ka ir kaip ketiname daryti?
 
 - [x] paanalizuoti paveiksliuka / dizaina;
-- [ ] pasiruosti basic failus;
-- [ ] susikelti i Github;
+- [x] pasiruosti basic failus;
+- [x] susikelti i Github;
 - [ ] Github'e paleisti visai prieinama nuoroda;
 - [ ] susikurti porjekto aprasa;
 - [ ] darbo uzduociu planavimas su 'Github projects'
