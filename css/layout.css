@@ -1,0 +1,89 @@
+* {
+	border: 1px solid;
+}
+
+body {
+	display: grid;
+	grid-template-columns: 1fr;
+	
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 200px 600px 200px 1fr;
+	padding: 40px 0;
+}
+
+	.container > .short {
+		grid-column: 3/4;
+		background-color: rgb(181, 189, 108);
+	}
+
+	.container > .long {
+		grid-column: 2/5;
+		background-color: rgb(179, 140, 179);
+	}
+	
+	/* jei norim su float main sukonfiguruoti
+		.container > .long > .left {
+			display: inline-block;
+			width: 40%;
+			float: left;
+			border: 1px solid;
+		}
+
+		.container > .long > .right {
+			display: inline-block;
+			width: 40%;
+			float: right;
+			border: 1px solid;
+		}
+	*/
+		.container > .long.columns {
+			display: grid;
+			grid-template-columns: 4fr 1fr 4fr;
+		}
+
+			.container > .long.columns > .left {
+				grid-column: 1/2;
+			}
+			.container > .long.columns > .right {
+				grid-column: 3/4;
+			}
+
+@media (max-width: 1100px) {
+	.container {
+		display: grid;
+		grid-template-columns: 1fr 100px 600px 100px 1fr;
+		padding: 40px 0;
+	}
+}
+
+@media (max-width: 900px) {
+	.container {
+		display: grid;
+		grid-template-columns: 1fr 600px 1fr;
+		padding: 40px 0;
+	}
+		.container > .short {
+			grid-column: 2/3;
+		}
+
+		.container > .long {
+			grid-column: 2/3;
+		}
+}
+
+@media (max-width: 640px) {
+	.container {
+		grid-template-columns: 20px 1fr 20px;
+	}
+
+	.container > .long.columns {
+		grid-template-columns: 1fr;
+	}
+
+		.container > .long.columns > .right {
+			grid-column: 1/2;
+		}
+}
