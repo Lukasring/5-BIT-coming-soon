@@ -44,6 +44,29 @@
         margin-bottom: var(--gap);
     }
 /* main */
+main h2 {
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: var(--gap);   
+}
+
+main p {
+    font-size: 15px;
+    line-height: 23px;
+    color: #777;
+    margin-bottom: var(--gap);
+}
+
+    main p > a {
+        color: var(--secondary-color);
+        text-decoration: none;
+    }
+
+    main p > a:hover {
+        text-decoration: underline;
+    }
 
 /* footer */
 footer.container {
