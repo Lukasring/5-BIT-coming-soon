@@ -1,0 +1,5 @@
+:root {
+    --gap: 20px;
+    --big-gap: calc(2.5 * var(--gap));
+    --main-color: #03a9f4;
+}

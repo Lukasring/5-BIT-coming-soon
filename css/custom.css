@@ -1,13 +1,48 @@
 /* basic */
 .bg-main-color {
-    background-color: #03a9f4;
+    background-color: var(--main-color);
 }
 
 /* hero */
-div.container {
+.hero.container {
     padding-bottom: 20px;
 }
 
+    .hero > .short {
+        text-align: center;
+    }
+
+    .hero img {
+        height: 30px;
+        margin-bottom: var(--big-gap);
+    }
+
+    .hero h1 {
+        display: inline-block;
+        width: 100%;
+        color: #000;
+        font-size: 50px;
+        line-height: 50px;
+        text-transform: uppercase;
+        margin-bottom: var(--gap);
+    }
+
+    .hero p {
+        display: inline-block;
+        width: 100%;
+        color: #444;
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: var(--big-gap);
+    }
+
+    .hero .clock {
+        margin-bottom: var(--big-gap);
+    }
+
+    .hero .form {
+        margin-bottom: var(--gap);
+    }
 /* main */
 
 /* footer */
