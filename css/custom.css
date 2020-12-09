@@ -6,6 +6,9 @@
 /* hero */
 .hero.container {
     padding-bottom: 20px;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
     .hero > .short {
