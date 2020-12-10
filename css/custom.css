@@ -33,7 +33,7 @@
     .hero p {
         display: inline-block;
         width: 100%;
-        color: #444;
+        color: #777;
         font-size: 20px;
         line-height: 25px;
         margin-bottom: var(--big-gap);
@@ -74,4 +74,55 @@ main p {
 /* footer */
 footer.container {
     padding-top: 0;
+    text-align: center;
+}
+    footer img {
+        margin-bottom: var(--gap);
+        height: 40px;
+    }
+
+    footer p {
+        display: inline-block;
+        font-size: 18px;
+        line-height: 25px;
+        color: #fff9;
+    }
+    
+        footer p > span {
+            padding: 0 10px;
+            position: relative;
+        }
+
+        footer p > span + span::before {
+            content: '';
+            display: inline-block;
+            width: 1px;
+            height: 15px;
+            background-color: #fff9;
+            position: absolute;
+            top: 50%;
+            left: -2px;
+            transform: translateY(-50%);
+        }
+
+    footer p a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    footer p a:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+@media (max-width: 640px) {
+    footer p > span {
+        display: inline-block;
+        width: 100%;
+    }
+
+    footer p > span + span::before {
+        display: none;
+    }
+
 }
