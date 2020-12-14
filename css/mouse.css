@@ -14,7 +14,7 @@
 		margin-top: 10px;
 		border-radius: 20px;
 		animation-name: scrolling;
-		animation-duration: 2s;
+		animation-duration: 1s;
 		animation-iteration-count: infinite;
 		position: relative;
 	}
@@ -25,7 +25,7 @@
 		height: 5px;
 	}
 	50% {
-		height: 15px;
+		height: 14px;
 		opacity: 1;
 	}
 	100% {
