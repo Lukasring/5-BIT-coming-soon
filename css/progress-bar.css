@@ -39,12 +39,11 @@
                 content: '';
                 position: absolute;
                 background-color: var(--main-color);
+                border-radius: 50px;
                 width: 100%;
                 height: 100%;
                 animation: loading;
                 animation-duration: 2s;
-                animation-iteration-count: infinite;
-                border-radius: 50px;
             }
 
 @keyframes loading {
