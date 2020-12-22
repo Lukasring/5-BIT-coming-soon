@@ -3,18 +3,20 @@
 ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 
-
 # Coming soon
+
 ### 20 group coming soon website project
+
+**Project is forked from [Egle](https://github.com/EgleJuske/6-coming-soon)**
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
-This site is not finished yet, but you can see it's development in progress at https://eglejuske.github.io/6-coming-soon/
+This site is not finished yet, but you can see it's development in progress at https://lukasring.github.io/5-BIT-coming-soon/
 
 Design: [Matrox coming soon](https://cdn.discordapp.com/attachments/648536139677958156/651479019476221953/coming-soon-wide.png)
 
-
 ## Project features
+
 - responsive design
 - repetitive content is generated/rendered;
 - css animations
@@ -22,4 +24,6 @@ Design: [Matrox coming soon](https://cdn.discordapp.com/attachments/648536139677
 - no AJAX (data sending)
 
 ## Authors
+
 [Egle](https://github.com/EgleJuske/)
+[Lukas](https://github.com/Lukasring/)
