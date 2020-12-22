@@ -1,16 +1,179 @@
 /* basic */
 .bg-main-color {
-    background-color: #03a9f4;
+	background-color: var(--main-color);
 }
 
 /* hero */
-div.container {
-    padding-bottom: 20px;
+.hero.container {
+	padding-bottom: 20px;
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	background-position: center;
 }
 
+	.hero > .short {
+		text-align: center;
+	}
+
+	.hero img {
+		height: 30px;
+		margin-bottom: var(--big-gap);
+	}
+
+	.hero h1 {
+		display: inline-block;
+		width: 100%;
+		color: #000;
+		font-size: 50px;
+		line-height: 50px;
+		text-transform: uppercase;
+		margin-bottom: var(--gap);
+	}
+
+	.hero p {
+		display: inline-block;
+		width: 100%;
+		color: #777;
+		font-size: 20px;
+		line-height: 25px;
+		margin-bottom: var(--big-gap);
+	}
+
+	.hero .clock {
+		margin-bottom: var(--big-gap);
+	}
+
+	.hero .form {
+		width: 80%;
+		margin: 0 10% var(--gap) 10%;
+	}
+
+		.hero .form > .input {
+			background-color: transparent;
+			color: #fff;
+			border-color: #fff;  
+		}
+
+		main .form > .btn {
+			float: right;
+		}
+
 /* main */
+main h2 {
+	font-size: 20px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #000;
+	margin-bottom: var(--gap);   
+}
+
+main p {
+	font-size: 15px;
+	line-height: 23px;
+	color: #777;
+	margin-bottom: var(--gap);
+}
+
+	main p > a {
+		color: var(--secondary-color);
+		text-decoration: none;
+	}
+
+	main p > a:hover {
+		text-decoration: underline;
+	}
 
 /* footer */
 footer.container {
-    padding-top: 0;
+	padding-top: 0;
+	text-align: center;
+}
+
+	footer > .long {
+		border-bottom: 1px solid #fff;
+		padding: 10px 0;
+		margin-bottom: var(--gap);
+	}
+
+	footer .fa {
+		color: #fff;
+		font-size: 18px;
+		width: 36px;
+		height: 36px;
+		line-height: 36px;
+		text-align: center;
+		border-radius: 50%;
+		text-decoration: none;
+	}
+
+	footer .fa:hover {
+		color: var(--main-color);
+		background-color: #fff;
+	}
+
+	footer img {
+		margin-bottom: var(--gap);
+		height: 40px;
+	}
+
+	footer p {
+		display: inline-block;
+		font-size: 18px;
+		line-height: 25px;
+		color: #fff9;
+	}
+	
+		footer p > span {
+			padding: 0 10px;
+			position: relative;
+		}
+
+		footer p > span + span::before {
+			content: '';
+			display: inline-block;
+			width: 1px;
+			height: 15px;
+			background-color: #fff9;
+			position: absolute;
+			top: 50%;
+			left: -2px;
+			transform: translateY(-50%);
+		}
+
+	footer p a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	footer p a:hover {
+		color: #fff;
+		text-decoration: underline;
+	}
+
+@media (max-width: 640px) {
+	footer p > span {
+		display: inline-block;
+		width: 100%;
+	}
+
+	footer p > span + span::before {
+		display: none;
+	}
+
+	.hero .form {
+		width: 100%;
+		margin: 0 0 var(--gap);
+	}
+
+}
+
+@media (min-width: 1200px) {
+	main .form > input.input {
+		width: 47%;
+		float: left;
+	}
+
+		main .form > input.input + input.input{
+			margin-left: 6%;
+		}
 }

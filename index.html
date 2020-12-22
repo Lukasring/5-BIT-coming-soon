@@ -8,7 +8,11 @@
 	<!-- reset -->
 	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/layout.css">
+	<link rel="stylesheet" href="./css/variables.css">
 	<!-- 3rd party components -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/font-awesome.min.css">
 	<!-- your components -->
 	<link rel="stylesheet" href="./css/button.css">
 	<link rel="stylesheet" href="./css/clock.css">
@@ -20,30 +24,73 @@
 </head>
 
 <body>
-	<div class="container bg-main-color">
+	<div class="hero container bg-main-color">
 		<div class="short">
-			HERO
+			<img src="./img/logo-icon.png" alt="logo">
+			<h1>Coming soon</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quis aliquid illo officiis, nulla
+				repudiandae.</p>
+			<div class="clock">
+				<div class="time">
+					<div class="value">432</div>
+					<div class="value-name">Days</div>
+				</div>
+				<div class="time">
+					<div class="value">09</div>
+					<div class="value-name">Hours</div>
+				</div>
+				<div class="time">
+					<div class="value">37</div>
+					<div class="value-name">Minutes</div>
+				</div>
+				<div class="time">
+					<div class="value">39</div>
+					<div class="value-name">Seconds</div>
+				</div>
+			</div>
+			<form class="form">
+				<input class="input" type="email" placeholder="Type your email" data-validation="email">
+				<button type="submit" class="btn">Subscribe now!</button>
+			</form>
+			<div class="mouse">
+				<div class="wheel"></div>
+			</div>
 		</div>
 	</div>
 	<main class="container">
 		<div class="long columns">
 			<div class="left">
-				LEFT CONTENT
+				<h2>About startup</h2>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus dolorum labore, facilis provident
+					quasi nihil. <a href="#">Matrox</a> Eos molestias saepee repellat mollitia.</p>
 			</div>
 			<div class="right">
-				RIGHT CONTENT
+				<h2>Have any question?</h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem odio temporibus ullam <a href="mailto:20grupe@demoproject.lt">20grupe@demoproject.lt</a> aspernatur rerum eaque incidunt magnam cumque!</p>
+				<form class="form">
+					<input class="input" type="text" placeholder="Name" data-validation="name">
+					<input class="input" type="email" placeholder="Email" data-validation="email">
+					<textarea class="input" placeholder="Message" data-validation="message"></textarea>
+					<button type="submit" class="btn">Send message</button>
+				</form>
 			</div>
 		</div>
 	</main>
 	<footer class="container bg-main-color">
 		<div class="long">
-			SOCIALS
 		</div>
 		<div class="short">
-			FOOTER BOTTOM TEXT
+			<img src="./img/logo-white.png" alt="Logo">
+			<p>
+				<span>Copyright &copy; 2020 <a href="#">Matrox</a></span>
+				<span>All rights reserved</span>
+				<span>Designed by <a href="#" target="_blank">TrendyTheme</a></span>
+			</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima magnam quos similique,
+				incidunt <a href="#">200+</a> cupiditate ut <a href="#">Matrox</a> consectetur blanditiis.</p>
 		</div>
 	</footer>
-	<script src="./js/main.js"></script>
+	<script src="./js/main.js" type="module"></script>
 </body>
 
 </html>

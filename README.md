@@ -9,7 +9,7 @@
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
-Site published at https://eglejuske.github.io/6-coming-soon/
+This site is not finished yet, but you can see it's development in progress at https://eglejuske.github.io/6-coming-soon/
 
 Design: [Matrox coming soon](https://cdn.discordapp.com/attachments/648536139677958156/651479019476221953/coming-soon-wide.png)
 
