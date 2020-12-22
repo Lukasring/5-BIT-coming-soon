@@ -3,9 +3,9 @@ class Clock {
 		this.selector = selector; 
 		this.deadline = {
 			year: (new Date()).getFullYear(),
-			month: 11,
-			day: 16,
-			hour: 10,
+			month: 1,
+			day: 1,
+			hour: 1,
 			minutes: 0,
 			seconds: 0
 		}
