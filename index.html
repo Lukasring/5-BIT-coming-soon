@@ -48,10 +48,10 @@
 					<div class="value-name">Seconds</div>
 				</div>
 			</div>
-			<div class="form">
-				<input class="input" type="email" placeholder="Type your email">
-				<button class="btn">Subscribe now!</button>
-			</div>
+			<form class="form">
+				<input class="input" type="email" placeholder="Type your email" data-validation="email">
+				<button type="submit" class="btn">Subscribe now!</button>
+			</form>
 			<div class="mouse">
 				<div class="wheel"></div>
 			</div>
@@ -62,16 +62,16 @@
 			<div class="left">
 				<h2>About startup</h2>
 				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus dolorum labore, facilis provident
-					quasi nihil. <a href="#">Matrox</a> Eos molestias saepe repellat mollitia.</p>
+					quasi nihil. <a href="#">Matrox</a> Eos molestias saepee repellat mollitia.</p>
 			</div>
 			<div class="right">
 				<h2>Have any question?</h2>
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem odio temporibus ullam <a href="mailto:20grupe@demoproject.lt">20grupe@demoproject.lt</a> aspernatur rerum eaque incidunt magnam cumque!</p>
 				<form class="form">
-					<input class="input" type="text" placeholder="Name">
-					<input class="input" type="email" placeholder="Email">
-					<textarea class="input" placeholder="Message"></textarea>
-					<button class="btn">Send message</button>
+					<input class="input" type="text" placeholder="Name" data-validation="name">
+					<input class="input" type="email" placeholder="Email" data-validation="email">
+					<textarea class="input" placeholder="Message" data-validation="message"></textarea>
+					<button type="submit" class="btn">Send message</button>
 				</form>
 			</div>
 		</div>
