@@ -75,6 +75,7 @@ body {
 
 	.container > .long.columns {
 		grid-template-columns: 1fr;
+		gap: 40px;
 	}
 
 		.container > .long.columns > .right {
