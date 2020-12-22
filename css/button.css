@@ -1,0 +1,18 @@
+.btn {
+	display: inline-block;
+	padding: 8px 20px;
+	border-radius: 4px;
+	line-height: 20px;
+	font-size: 18px;
+	background-color: var(--secondary-color);
+	color: #fff;
+	cursor: pointer;
+	border: none;
+	box-shadow: 0 2px 4px #0006;
+	opacity: 0.93;
+}
+
+	.btn:hover {
+	box-shadow: 0 2px 4px #0009;
+	opacity: 1;
+	}
