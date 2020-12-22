@@ -26,4 +26,5 @@ Design: [Matrox coming soon](https://cdn.discordapp.com/attachments/648536139677
 ## Authors
 
 [Egle](https://github.com/EgleJuske/)
+
 [Lukas](https://github.com/Lukasring/)
