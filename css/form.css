@@ -1,26 +1,32 @@
 .form {
-    display: inline-block;
-    width: 100%;
+  display: inline-block;
+  width: 100%;
 }
 
-    .form > .input {
-        display: inline-block;
-        width: 100%;
-        margin-bottom: 20px;
-        color: #929292;
-        border: none;
-        border-bottom: 1px solid #666;
-        font-size: 17px;
-        line-height: 30px;
-        outline-color: var(--main-color);
-    }
+.form > .input {
+  display: inline-block;
+  padding: 0 4px;
+  width: 100%;
+  margin-bottom: 20px;
+  color: rgb(85, 85, 85);
+  border: none;
+  border-bottom: 1px solid #666;
+  font-size: 17px;
+  line-height: 30px;
+  outline-color: var(--main-color);
+}
 
-    textarea.input {
-        min-height: 80px;
-        max-height: 256px;
-        resize: vertical;
-    }
+.form > .input:focus,
+.form > .input:active {
+  color: black;
+}
 
-        .form > .input::placeholder {
-            color: inherit;
-        }
+textarea.input {
+  min-height: 80px;
+  max-height: 256px;
+  resize: vertical;
+}
+
+.form > .input::placeholder {
+  color: inherit;
+}
